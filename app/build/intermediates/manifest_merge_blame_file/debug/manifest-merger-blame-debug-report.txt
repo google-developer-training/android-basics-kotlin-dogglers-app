@@ -1,0 +1,154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2021 The Android Open Source Project.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.dogglers"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="30" />
+24-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\Oyatechs\.gradle\caches\transforms-3\1ac753a9f7a453c935ac5dc910d48791\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:5-72
+26-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\Oyatechs\.gradle\caches\transforms-3\1ac753a9f7a453c935ac5dc910d48791\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:22-69
+27
+28    <application
+28-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:20:5-49:19
+29        android:allowBackup="true"
+29-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:21:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.3.2] C:\Users\Oyatechs\.gradle\caches\transforms-3\bde2df02fe9d6cf74306c1ab1fbf44a5\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:22:9-43
+33        android:label="@string/app_name"
+33-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:23:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:24:9-54
+35        android:supportsRtl="true"
+35-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:25:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.Dogglers" >
+37-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:26:9-46
+38        <activity android:name="com.example.dogglers.VerticalListActivity" >
+38-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:27:9-31:20
+38-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:27:19-55
+39            <meta-data
+39-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:28:13-30:49
+40                android:name="android.support.PARENT_ACTIVITY"
+40-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:29:17-63
+41                android:value=".MainActivity" />
+41-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:30:17-46
+42        </activity>
+43        <activity android:name="com.example.dogglers.HorizontalListActivity" >
+43-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:32:9-36:20
+43-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:32:19-57
+44            <meta-data
+44-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:28:13-30:49
+45                android:name="android.support.PARENT_ACTIVITY"
+45-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:29:17-63
+46                android:value=".MainActivity" />
+46-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:30:17-46
+47        </activity>
+48        <activity android:name="com.example.dogglers.GridListActivity" >
+48-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:37:9-41:20
+48-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:37:19-51
+49            <meta-data
+49-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:28:13-30:49
+50                android:name="android.support.PARENT_ACTIVITY"
+50-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:29:17-63
+51                android:value=".MainActivity" />
+51-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:30:17-46
+52        </activity>
+53        <activity android:name="com.example.dogglers.MainActivity" >
+53-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:42:9-48:20
+53-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:42:19-47
+54            <intent-filter>
+54-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:43:13-47:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:44:17-69
+55-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:44:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:46:17-77
+57-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:46:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\Oyatechs\.gradle\caches\transforms-3\1ac753a9f7a453c935ac5dc910d48791\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:28:9-37:20
+61            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+61-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\Oyatechs\.gradle\caches\transforms-3\1ac753a9f7a453c935ac5dc910d48791\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:29:13-96
+62            android:exported="true"
+62-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\Oyatechs\.gradle\caches\transforms-3\1ac753a9f7a453c935ac5dc910d48791\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:30:13-36
+63            android:multiprocess="true"
+63-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\Oyatechs\.gradle\caches\transforms-3\1ac753a9f7a453c935ac5dc910d48791\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:31:13-40
+64            android:taskAffinity=""
+64-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\Oyatechs\.gradle\caches\transforms-3\1ac753a9f7a453c935ac5dc910d48791\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:32:13-36
+65            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+65-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\Oyatechs\.gradle\caches\transforms-3\1ac753a9f7a453c935ac5dc910d48791\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:33:13-78
+66            <intent-filter>
+66-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\Oyatechs\.gradle\caches\transforms-3\1ac753a9f7a453c935ac5dc910d48791\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:44:17-69
+67-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:44:25-66
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->[androidx.test:core:1.3.0] C:\Users\Oyatechs\.gradle\caches\transforms-3\96b5bf5c8b85cc3cfdd22cf95b9d090b\transformed\jetified-core-1.3.0\AndroidManifest.xml:27:9-33:20
+71            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+71-->[androidx.test:core:1.3.0] C:\Users\Oyatechs\.gradle\caches\transforms-3\96b5bf5c8b85cc3cfdd22cf95b9d090b\transformed\jetified-core-1.3.0\AndroidManifest.xml:28:13-99
+72            android:theme="@android:style/Theme" >
+72-->[androidx.test:core:1.3.0] C:\Users\Oyatechs\.gradle\caches\transforms-3\96b5bf5c8b85cc3cfdd22cf95b9d090b\transformed\jetified-core-1.3.0\AndroidManifest.xml:29:13-49
+73            <intent-filter>
+73-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\Oyatechs\.gradle\caches\transforms-3\1ac753a9f7a453c935ac5dc910d48791\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:44:17-69
+74-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:44:25-66
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->[androidx.test:core:1.3.0] C:\Users\Oyatechs\.gradle\caches\transforms-3\96b5bf5c8b85cc3cfdd22cf95b9d090b\transformed\jetified-core-1.3.0\AndroidManifest.xml:34:9-40:20
+78            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+78-->[androidx.test:core:1.3.0] C:\Users\Oyatechs\.gradle\caches\transforms-3\96b5bf5c8b85cc3cfdd22cf95b9d090b\transformed\jetified-core-1.3.0\AndroidManifest.xml:35:13-95
+79            android:theme="@android:style/Theme" >
+79-->[androidx.test:core:1.3.0] C:\Users\Oyatechs\.gradle\caches\transforms-3\96b5bf5c8b85cc3cfdd22cf95b9d090b\transformed\jetified-core-1.3.0\AndroidManifest.xml:36:13-49
+80            <intent-filter>
+80-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\Oyatechs\.gradle\caches\transforms-3\1ac753a9f7a453c935ac5dc910d48791\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:44:17-69
+81-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:44:25-66
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->[androidx.test:core:1.3.0] C:\Users\Oyatechs\.gradle\caches\transforms-3\96b5bf5c8b85cc3cfdd22cf95b9d090b\transformed\jetified-core-1.3.0\AndroidManifest.xml:41:9-47:20
+85            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+85-->[androidx.test:core:1.3.0] C:\Users\Oyatechs\.gradle\caches\transforms-3\96b5bf5c8b85cc3cfdd22cf95b9d090b\transformed\jetified-core-1.3.0\AndroidManifest.xml:42:13-103
+86            android:theme="@android:style/Theme.Dialog" >
+86-->[androidx.test:core:1.3.0] C:\Users\Oyatechs\.gradle\caches\transforms-3\96b5bf5c8b85cc3cfdd22cf95b9d090b\transformed\jetified-core-1.3.0\AndroidManifest.xml:43:13-56
+87            <intent-filter>
+87-->[androidx.fragment:fragment-testing:1.3.3] C:\Users\Oyatechs\.gradle\caches\transforms-3\1ac753a9f7a453c935ac5dc910d48791\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:44:17-69
+88-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\src\main\AndroidManifest.xml:44:25-66
+89            </intent-filter>
+90        </activity>
+91    </application>
+92
+93</manifest>

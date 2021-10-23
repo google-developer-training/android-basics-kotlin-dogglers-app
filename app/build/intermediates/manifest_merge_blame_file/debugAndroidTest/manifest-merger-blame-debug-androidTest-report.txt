@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dogglers.test" >
+4
+5    <uses-sdk
+5-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4565861876274530110.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4565861876274530110.xml:5:15-41
+7        android:targetSdkVersion="30" />
+7-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4565861876274530110.xml:5:42-71
+8
+9    <instrumentation
+9-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4565861876274530110.xml:11:5-15:70
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4565861876274530110.xml:11:22-76
+11        android:functionalTest="false"
+11-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4565861876274530110.xml:14:22-52
+12        android:handleProfiling="false"
+12-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4565861876274530110.xml:13:22-53
+13        android:label="Tests for com.example.dogglers"
+13-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4565861876274530110.xml:15:22-68
+14        android:targetPackage="com.example.dogglers" />
+14-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4565861876274530110.xml:12:22-66
+15
+16    <application android:debuggable="true" >
+16-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4565861876274530110.xml:7:5-9:19
+17        <uses-library android:name="android.test.runner" />
+17-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4565861876274530110.xml:8:9-60
+17-->E:\MEGACLOUD\KotlinProjects\android-basics-kotlin-dogglers-app\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4565861876274530110.xml:8:23-57
+18    </application>
+19
+20</manifest>
