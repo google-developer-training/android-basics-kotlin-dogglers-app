@@ -56,6 +56,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun launchGrid() {
+
         listIntent = Intent(this, GridListActivity::class.java)
         startActivity(listIntent)
     }

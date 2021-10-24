@@ -69,6 +69,7 @@
             app:layout_constraintTop_toTopOf="@id/dog_age"
             tools:text="Hobbies: Barking">
 
+
         </TextView>
         <!-- TODO: Note that, unlike the grid view list, one card in the vertical and horizontal
                lists effectively take up the width of the screen. This means you have more

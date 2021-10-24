@@ -40,5 +40,29 @@ class VerticalListActivity : AppCompatActivity() {
 
         // Enable up button for backward navigation
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        //Practising Map. It is not part of the Dogglers app
+      val map = mutableMapOf(
+          "Robert" to 23,
+          "Patience" to 31
+      )
+
+
+        map.put("Narko",68)
+        map.put("Narko",234)
+
+map.forEach { "${it.key} is ${it.value} old" }
+
+        val agesMap = mutableMapOf("Robert" to 32,
+        "Patience" to 55,
+        "Olivier" to 45
+        )
+        agesMap.forEach{
+            println("${it.key} is ${it.value} year old")
+        }
+
+        agesMap["Oliver"] = 32
+
+
     }
 }
