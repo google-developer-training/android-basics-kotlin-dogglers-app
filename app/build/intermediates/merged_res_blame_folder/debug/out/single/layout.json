@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\MEGACLOUD\\KotlinProjects\\android-basics-kotlin-dogglers-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\vertical_horizontal_list_item.xml",
+        "source": "E:\\MEGACLOUD\\KotlinProjects\\android-basics-kotlin-dogglers-app\\app\\src\\main\\res\\layout\\vertical_horizontal_list_item.xml"
+    },
+    {
+        "merged": "E:\\MEGACLOUD\\KotlinProjects\\android-basics-kotlin-dogglers-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_vertical_list.xml",
+        "source": "E:\\MEGACLOUD\\KotlinProjects\\android-basics-kotlin-dogglers-app\\app\\src\\main\\res\\layout\\activity_vertical_list.xml"
+    },
+    {
+        "merged": "E:\\MEGACLOUD\\KotlinProjects\\android-basics-kotlin-dogglers-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\grid_list_item.xml",
+        "source": "E:\\MEGACLOUD\\KotlinProjects\\android-basics-kotlin-dogglers-app\\app\\src\\main\\res\\layout\\grid_list_item.xml"
+    },
+    {
+        "merged": "E:\\MEGACLOUD\\KotlinProjects\\android-basics-kotlin-dogglers-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\MEGACLOUD\\KotlinProjects\\android-basics-kotlin-dogglers-app\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\MEGACLOUD\\KotlinProjects\\android-basics-kotlin-dogglers-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_grid_list.xml",
+        "source": "E:\\MEGACLOUD\\KotlinProjects\\android-basics-kotlin-dogglers-app\\app\\src\\main\\res\\layout\\activity_grid_list.xml"
+    },
+    {
+        "merged": "E:\\MEGACLOUD\\KotlinProjects\\android-basics-kotlin-dogglers-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_horizontal_list.xml",
+        "source": "E:\\MEGACLOUD\\KotlinProjects\\android-basics-kotlin-dogglers-app\\app\\src\\main\\res\\layout\\activity_horizontal_list.xml"
+    }
+]

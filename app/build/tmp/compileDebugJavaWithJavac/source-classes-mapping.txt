@@ -1,0 +1,14 @@
+com/example/dogglers/databinding/ActivityGridListBinding.java
+ com.example.dogglers.databinding.ActivityGridListBinding
+com/example/dogglers/BuildConfig.java
+ com.example.dogglers.BuildConfig
+com/example/dogglers/databinding/ActivityMainBinding.java
+ com.example.dogglers.databinding.ActivityMainBinding
+com/example/dogglers/databinding/ActivityVerticalListBinding.java
+ com.example.dogglers.databinding.ActivityVerticalListBinding
+com/example/dogglers/databinding/ActivityHorizontalListBinding.java
+ com.example.dogglers.databinding.ActivityHorizontalListBinding
+com/example/dogglers/databinding/VerticalHorizontalListItemBinding.java
+ com.example.dogglers.databinding.VerticalHorizontalListItemBinding
+com/example/dogglers/databinding/GridListItemBinding.java
+ com.example.dogglers.databinding.GridListItemBinding
