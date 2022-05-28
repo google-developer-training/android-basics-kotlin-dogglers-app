@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (C) 2021 The Android Open Source Project.
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,15 +13,15 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<com.google.android.material.card.MaterialCardView
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    app:cardElevation="4dp"
-    app:cardCornerRadius="4dp">
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
