@@ -67,8 +67,7 @@ open class BaseTest {
      * Check the content of the first card
      */
     fun checkFirstPosition() {
-        hasListItemContent("Tzeitel", "7", "sunbathing",
-            R.drawable.tzeitel)
+        hasListItemContent("Tzeitel", "Age: 7", "Hobbies: sunbathing", R.drawable.tzeitel)
     }
 
     /**
