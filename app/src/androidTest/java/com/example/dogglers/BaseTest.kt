@@ -55,9 +55,9 @@ open class BaseTest {
     private fun hasListItemContent(name: String, age: String, hobbies: String, imageResource: Int) {
         onView(withText(name))
             .check(matches(isDisplayed()))
-        onView(withText(age))
+        onView(withText("Age: $age"))
             .check(matches(isDisplayed()))
-        onView(withText(hobbies))
+        onView(withText("Hobbies: $hobbies"))
             .check(matches(isDisplayed()))
         onView(withDrawable(imageResource))
             .check(matches(isDisplayed()))
