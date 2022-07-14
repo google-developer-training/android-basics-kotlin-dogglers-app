@@ -34,7 +34,7 @@
 
         <!-- TODO: Create an ImageView resource for the image of the dog.
                The height should be 194dp
-               The width should match the with of the card
+               The width should match the width of the card
                The scaleType should be set to centerCrop-->
 
         <!-- TODO: Create a TextView for each of the following:
