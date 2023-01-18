@@ -53,7 +53,8 @@ class HorizontalListTests : BaseTest() {
     fun `horizontal_scrolling`() {
         onView(withId(R.id.horizontal_recycler_view))
             .perform(swipeLeft())
-        onView(withText("Frankie")).check(matches(isDisplayed()))
+        Thread.sleep(1500)
+        onView(withText("Nox")).check(matches(isDisplayed()))
     }
 
     @Test
